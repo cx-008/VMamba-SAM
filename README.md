@@ -119,7 +119,7 @@ python evaluate_leaf_segmentation.py \
 | Loss (train) | WeightedStructureLoss (BCE + IoU, edge-enhanced) |
 | Loss (val) | CombinedLoss (α=0.5, β=0.3, γ=0.2) |
 | Gradient clip | max_norm = 1.0 |
-| Epochs | 100 |
+| Epochs | 200 |
 | Batch size | 8 |
 
 Data augmentation (train): horizontal flip, vertical flip, rotation (90/180/270°), color jitter, random grayscale.
