@@ -25,6 +25,7 @@ VMamba-SAM is a segmentation model for plant leaf disease images built on the SA
 │   ├── vm_unet.py
 │   └── baseline_sam2unet.py
 ├── sam2/                      # SAM2 library
+├── dataset                      
 ├── sam2_configs/              # SAM2 YAML configs
 └── utils/                     # Loss, metrics, etc.
 ```
